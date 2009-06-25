@@ -1,0 +1,93 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFG", "CFG\CFG.csproj", "{6C81941C-14F0-4554-9278-2E6EF3438187}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionEx", "ReflectionEx\ReflectionEx.csproj", "{73C4266B-B467-467A-BECC-06AE1989485A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MdDecoder", "MdDecoder\MdDecoder.vcproj", "{205DAC2C-7101-4C8B-9680-B83424A7F3DB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{FEF3E04C-E236-4C14-9356-9E4BE5A88EA9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config", "Config\Config.csproj", "{E55C15E3-8B81-4435-AE27-958AC2146BC0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{F00233BB-CDEF-474B-9A97-4C4656A565DA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTA", "BTA\BTA.csproj", "{3653866C-3EEB-4894-B638-192097A61CBC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spec", "Spec\Spec.csproj", "{A2B87930-1F68-41EA-B800-61E6582782C8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE", "PE\PE.csproj", "{8C6C84CC-82FC-4105-A910-BAF323179087}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestInt", "TestInt\TestInt.csproj", "{5DED8348-4549-48C6-AC7C-3E5F1D11C73E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6C81941C-14F0-4554-9278-2E6EF3438187}.Debug.ActiveCfg = Debug|.NET
+		{6C81941C-14F0-4554-9278-2E6EF3438187}.Debug.Build.0 = Debug|.NET
+		{6C81941C-14F0-4554-9278-2E6EF3438187}.Release.ActiveCfg = Release|.NET
+		{6C81941C-14F0-4554-9278-2E6EF3438187}.Release.Build.0 = Release|.NET
+		{73C4266B-B467-467A-BECC-06AE1989485A}.Debug.ActiveCfg = Debug|.NET
+		{73C4266B-B467-467A-BECC-06AE1989485A}.Debug.Build.0 = Debug|.NET
+		{73C4266B-B467-467A-BECC-06AE1989485A}.Release.ActiveCfg = Release|.NET
+		{73C4266B-B467-467A-BECC-06AE1989485A}.Release.Build.0 = Release|.NET
+		{205DAC2C-7101-4C8B-9680-B83424A7F3DB}.Debug.ActiveCfg = Debug|Win32
+		{205DAC2C-7101-4C8B-9680-B83424A7F3DB}.Debug.Build.0 = Debug|Win32
+		{205DAC2C-7101-4C8B-9680-B83424A7F3DB}.Release.ActiveCfg = Release|Win32
+		{205DAC2C-7101-4C8B-9680-B83424A7F3DB}.Release.Build.0 = Release|Win32
+		{FEF3E04C-E236-4C14-9356-9E4BE5A88EA9}.Debug.ActiveCfg = Debug|.NET
+		{FEF3E04C-E236-4C14-9356-9E4BE5A88EA9}.Debug.Build.0 = Debug|.NET
+		{FEF3E04C-E236-4C14-9356-9E4BE5A88EA9}.Release.ActiveCfg = Release|.NET
+		{FEF3E04C-E236-4C14-9356-9E4BE5A88EA9}.Release.Build.0 = Release|.NET
+		{E55C15E3-8B81-4435-AE27-958AC2146BC0}.Debug.ActiveCfg = Debug|.NET
+		{E55C15E3-8B81-4435-AE27-958AC2146BC0}.Debug.Build.0 = Debug|.NET
+		{E55C15E3-8B81-4435-AE27-958AC2146BC0}.Release.ActiveCfg = Release|.NET
+		{E55C15E3-8B81-4435-AE27-958AC2146BC0}.Release.Build.0 = Release|.NET
+		{F00233BB-CDEF-474B-9A97-4C4656A565DA}.Debug.ActiveCfg = Debug|.NET
+		{F00233BB-CDEF-474B-9A97-4C4656A565DA}.Debug.Build.0 = Debug|.NET
+		{F00233BB-CDEF-474B-9A97-4C4656A565DA}.Release.ActiveCfg = Release|.NET
+		{F00233BB-CDEF-474B-9A97-4C4656A565DA}.Release.Build.0 = Release|.NET
+		{3653866C-3EEB-4894-B638-192097A61CBC}.Debug.ActiveCfg = Debug|.NET
+		{3653866C-3EEB-4894-B638-192097A61CBC}.Debug.Build.0 = Debug|.NET
+		{3653866C-3EEB-4894-B638-192097A61CBC}.Release.ActiveCfg = Release|.NET
+		{3653866C-3EEB-4894-B638-192097A61CBC}.Release.Build.0 = Release|.NET
+		{A2B87930-1F68-41EA-B800-61E6582782C8}.Debug.ActiveCfg = Debug|.NET
+		{A2B87930-1F68-41EA-B800-61E6582782C8}.Debug.Build.0 = Debug|.NET
+		{A2B87930-1F68-41EA-B800-61E6582782C8}.Release.ActiveCfg = Release|.NET
+		{A2B87930-1F68-41EA-B800-61E6582782C8}.Release.Build.0 = Release|.NET
+		{8C6C84CC-82FC-4105-A910-BAF323179087}.Debug.ActiveCfg = Debug|.NET
+		{8C6C84CC-82FC-4105-A910-BAF323179087}.Debug.Build.0 = Debug|.NET
+		{8C6C84CC-82FC-4105-A910-BAF323179087}.Release.ActiveCfg = Release|.NET
+		{8C6C84CC-82FC-4105-A910-BAF323179087}.Release.Build.0 = Release|.NET
+		{5DED8348-4549-48C6-AC7C-3E5F1D11C73E}.Debug.ActiveCfg = Debug|.NET
+		{5DED8348-4549-48C6-AC7C-3E5F1D11C73E}.Debug.Build.0 = Debug|.NET
+		{5DED8348-4549-48C6-AC7C-3E5F1D11C73E}.Release.ActiveCfg = Release|.NET
+		{5DED8348-4549-48C6-AC7C-3E5F1D11C73E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

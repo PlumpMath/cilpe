@@ -1,0 +1,13 @@
+syntax: glob
+*.orig
+*.rej
+*~
+*.o
+tests/*.err
+**.csproj.user
+**.ncb
+**.suo
+**.obj
+
+syntax: regexp
+.*\#.*\#$
