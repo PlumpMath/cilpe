@@ -5,9 +5,18 @@ syntax: glob
 *.o
 tests/*.err
 **.csproj.user
+**.dll
+**.DLL
+**.exe
+**.ilk
+**.idb
 **.ncb
-**.suo
 **.obj
+**.pch
+**.pdb
+**.projdata
+**.suo
+BuildLog.htm
 
 syntax: regexp
 .*\#.*\#$
