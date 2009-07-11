@@ -3,11 +3,15 @@ syntax: glob
 *.rej
 *~
 *.o
-tests/*.err
+**/bin/Debug/*
+**/bin/Release/*
+**/obj/Debug/*
+**/obj/Release/*
+MdDecoder/Debug/*
 **.csproj.user
-**.dll
-**.DLL
-**.exe
+#**.dll
+#**.DLL
+#**.exe
 **.ilk
 **.idb
 **.ncb
@@ -17,6 +21,9 @@ tests/*.err
 **.projdata
 **.suo
 BuildLog.htm
+TestsAndSamples/Bin/CILPEOutPut/Dis\#/*
+**/Interop.TIME.dll
+**.lnk
 
 syntax: regexp
 .*\#.*\#$

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToPower", "ToPower.csproj", "{B80884A5-59A7-40D9-B7B2-883324A900F8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B80884A5-59A7-40D9-B7B2-883324A900F8}.Debug.ActiveCfg = Debug|.NET
+		{B80884A5-59A7-40D9-B7B2-883324A900F8}.Debug.Build.0 = Debug|.NET
+		{B80884A5-59A7-40D9-B7B2-883324A900F8}.Release.ActiveCfg = Release|.NET
+		{B80884A5-59A7-40D9-B7B2-883324A900F8}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
