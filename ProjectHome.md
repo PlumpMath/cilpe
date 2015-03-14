@@ -1,0 +1,1 @@
+This is a program specializer (based on partial evaluation) for a subset of CIL (Common Intermediate Language). See PublicationsAndDocuments and ReadMe.
